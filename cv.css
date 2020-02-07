@@ -74,13 +74,13 @@ span {
 	font-weight: normal;
 	text-align: right;
 }
-.info td {
+.profile td {
 	padding: 0px 5px;
 }
-.info td:first-child {
+.profile td:first-child {
 	text-align: center;
 }
-.info td>span, .skills td>span {
+.profile td>span, .skills td>span {
 	font-size: 14pt;
 	font-weight: normal;
 }
