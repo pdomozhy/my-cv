@@ -25,19 +25,22 @@ table {
 	text-align: justify;
 }
 td {
-	padding: 2px 5px;
+	padding: 0px 2px;
 }
 span {
 	font-family: LigatureSymbols;
 	font-size: 20pt;
 	font-weight: bold;
 }
+ul {
+    list-style-type: disc;
+}
 .page{
-	background: -webkit-linear-gradient(left, #EEE , #EEE 17mm, #DDD 17mm, #DDD 82mm, #EEE 82mm, #EEE);
+	background: -webkit-linear-gradient(left, #EEE , #EEE 8mm, #DDD 8mm, #DDD 73mm, #EEE 73mm, #EEE);
 	width: 178mm;
 	height: 276.94mm;
 	margin: 0 auto;
-	padding: 12mm 12mm 8mm 20mm;
+	padding: 2mm 8mm 6mm 12mm;
 	box-shadow: 0 0 5mm rgba(0,0,0,0.5);
 }
 .page>* {
@@ -47,12 +50,12 @@ span {
 	width: inherit;
 }
 .left {
-	width: 33%;
-	margin-right: 4%;
+	width: 32%;
+	margin-right: 3%;
 }
 .right {
-	width: 63%;
-	margin-top: 16px;
+	width: 65%;
+	margin-top: 8px;
 }
 .left td:first-child {
 	text-align: left;
@@ -71,7 +74,7 @@ span {
 }
 .section td:last-child,.top td:last-child {
 	font-size: 14pt;
-	font-weight: normal;
+	font-weight: bold;
 	text-align: right;
 }
 .profile td {
