@@ -27,6 +27,9 @@ table {
 td {
 	padding: 0px 2px;
 }
+.courses td:first-child {
+	width: 20%;
+}
 span {
 	font-family: LigatureSymbols;
 	font-size: 20pt;
